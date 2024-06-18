@@ -1,0 +1,259 @@
+/*css styles*/
+/* General Styles */
+
+.mx-discount-item-table-item-wrap input, .mx-discount-item-table-item-wrap select {
+    width: 100%;
+    max-width: 400px;
+    min-width: 200px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 1px solid #dde3ec;
+    font-size: 15px;
+    line-height: 19px;
+    color: #536387;
+}
+.mx-discount-item-table-item-wrap {
+    margin-top: 40px;
+}
+.mx-discount-item-table-item-wrap input, .mx-discount-item-table-item-wrap select {
+    padding-right: 30px;
+}
+
+.mx-discount-item-table-item-wrap input.discount-item-checkbox-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+    margin-top: 2px;
+    border: 0.7px solid #dde3ec;
+    border-radius: 3px;
+    min-width: auto;
+
+}
+
+.mx-discount-item-table-item-wrap input.discount-item-radio-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    border: 0.7px solid #dde3ec;
+    border-radius: 3px;
+    min-width: auto;
+}
+
+.mx-discount-item-table-item-wrap label {
+    color: #536387;
+    font-size: 15px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.mx-discount-item-table-item-wrap form > div {
+    margin-bottom: 20px;
+}
+
+.condition-item {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.mx-discount-item-table-item-wrap form .mx-form-1 {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.mx-discount-item-table-item-wrap form {
+    display: flex;
+    gap: 30px;
+}
+a.mx-go-back {
+    margin-bottom: 15px;
+    display: block;
+    color: #6a64f1;
+    font-size: 16px;
+}
+
+a.mx-go-back:focus {
+    box-shadow: none;
+}
+
+.mx-discount-item-table-item-wrap .mxesdmmx_block_wrap {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+.mx-discount-item-table-item-wrap .mxesdm_status-block input.discount-item-checkbox-inner {
+    margin-right: 5px !important;
+    width: 30px;
+    height: 30px;
+}
+.mx-discount-item-table-item-wrap .mxesdm_status-block input.discount-item-checkbox-inner:before {
+    width: 30px;
+    height: 30px;
+}
+.mxesdm_status-block {
+    max-width: 85px;
+    float: right;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.specific-item span {
+    color: #6a64f1;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.mx-discount-item-table-item-wrap form .mx-form-1 > div {
+    margin-bottom: 20px;
+}
+.mx-discount-item-table-item-wrap p.mx-submit_button_wrap {
+    margin-top: 30px;
+}
+
+
+
+.general-rules-conditions {
+    padding: 30px 0;
+    border-top: 1px solid #dde3ec;
+    border-bottom: 1px solid #dde3ec;
+    margin-top: 30px;
+}
+.general-rules-conditions h3 {
+    margin-top: 0;
+}
+
+
+div#mxesdm_specific_block h3 {
+    margin-top: 0;
+}
+div#mxesdm_specific_block {
+    background: #f0f0f0;
+    padding: 20px 20px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.mx-discount-item-table-item-wrap button {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: none;
+    font-weight: 500;
+    background-color: #6a64f1;
+    color: white;
+    cursor: pointer;
+}
+
+div#mxesdm_specific_list {
+    margin-top: 30px;
+}
+
+.mxesdm_discount-block {
+    display: flex;
+    align-items: end;
+    justify-content: left;
+    margin: 10px 0;
+    gap: 10px;
+    max-width: 550px;
+}
+.specific-item:not(.specific-item:last-child) {
+    margin-bottom: 10px;
+}
+.specific-item {
+    background: #fff;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+.logic-operator > div {
+    display: flex;
+    gap: 10px;
+}
+.logic-operator > div > div {
+    display: flex;
+    align-items: center;
+}
+
+.mx-discount-item-table-item-wrap h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.logic-operator {
+    margin-bottom: 15px;
+}
+.mx-discount-item-table-item-wrap button.dashicons-no-alt {
+    height: 45px;
+    width: 35px;
+    padding: 0;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.condition-item label {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.mxesdm_condition-operator {
+    max-width: 70px;
+    width: 100%;
+}
+.mxesdm_condition-operator select {
+    min-width: auto;
+}
+
+.mxesdm_condition-value input {
+    min-width: min-content;
+}
+.mxesdm_condition-value {
+    max-width: 120px;
+    width: 100%;
+}
+.mxesdm_condition-calculate-from select {
+    max-width: max-content;
+}
+
+.wp-core-ui .mx-discount-item-table-item-wrap .button-primary {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: none;
+    font-weight: 500;
+    background: #6a64f1;
+    color: white;
+    cursor: pointer;
+}
+.mxesdm_status-block label {
+    margin-bottom: 0;
+}
+
+div#mxesdm_search_results {
+    background: #fff;
+    width: 100%;
+    max-width: 400px;
+    min-width: 200px;
+    border-radius: 5px;
+    border: 1px solid #dde3ec;
+    border-top: none;
+    font-size: 15px;
+    line-height: 19px;
+    color: #536387;
+    margin-bottom: 15px;
+}
+.mxesdm_search_result_item {
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.mxesdm_search_result_item:hover {
+    color: #fff;
+    background: #6a64f1;
+}

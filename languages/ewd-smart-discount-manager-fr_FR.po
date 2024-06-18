@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xq-xe-xt-xy 1.0\n"
+"POT-Creation-Date: 2018-07-11 09:44+0300\n"
+"PO-Revision-Date: 2018-07-11 09:44+0300\n"
+"Last-Translator: \n"
+"Language-Team: Maksym Marko\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../includes\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Discount Rules"
+msgstr "Règles de réduction"
+
+msgid "No results found"
+msgstr "Aucun résultat trouvé"
+
+msgid "Go back"
+msgstr "Retour"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Label"
+msgstr "Étiquette"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Cart Adjustment"
+msgstr "Ajustement du panier"
+
+msgid "Filter"
+msgstr "Filtre"
+
+msgid "All Categories"
+msgstr "Toutes les catégories"
+
+msgid "Specific Categories"
+msgstr "Catégories spécifiques"
+
+msgid "Discount Type"
+msgstr "Type de réduction"
+
+msgid "Fixed Discount"
+msgstr "Réduction fixe"
+
+msgid "Value"
+msgstr "Valeur"
+
+msgid "Specific Discounts"
+msgstr "Réductions spécifiques"
+
+msgid "Search"
+msgstr "Rechercher"
+
+msgid "General Rules Conditions"
+msgstr "Conditions générales des règles"
+
+msgid "Logic Operator"
+msgstr "Opérateur logique"
+
+msgid "AND"
+msgstr "ET"
+
+msgid "OR"
+msgstr "OU"
+
+msgid "Add Condition"
+msgstr "Ajouter une condition"
+
+msgid "Create"
+msgstr "Créer"
+
+msgid "Fill in all fields"
+msgstr "Remplissez tous les champs"
+
+msgid "Discount Rules list"
+msgstr "Liste des règles de réduction"
+
+msgid "Failed to create the item. Please try again."
+msgstr "Échec de la création de l'élément. Veuillez réessayer."
+
+msgid "Discount rule updated successfully."
+msgstr "Règle de réduction mise à jour avec succès."
+
+msgid "Discount rule added successfully."
+msgstr "Règle de réduction ajoutée avec succès."
+
+msgid "Rules Conditions"
+msgstr "Conditions des règles"
+
+msgid "Condition Type"
+msgstr "Type de condition"
+
+msgid "Operator"
+msgstr "Opérateur"
+
+msgid "How to calculate"
+msgstr "Comment calculer"
+
+msgid "Count only the items selected in the filters set for this rule"
+msgstr "Compter uniquement les éléments sélectionnés dans les filtres définis pour cette règle"
+
+msgid "Remove"
+msgstr "Supprimer"
+
+msgid "Weight"
+msgstr "Poids"
+
+msgid "EWD Discount rules"
+msgstr "EWD Discount rules"
+
+msgid "EWD Discount Manager"
+msgstr "EWD Discount Manager"
+
+msgid "Edit Discount rule"
+msgstr "Modifier la règle de réduction"
+
+msgid "Create Discount rule"
+msgstr "Créer une règle de réduction"
+
+msgid "Go Back"
+msgstr "Retour"
+
+msgid "Active"
+msgstr "Actif"
+
+msgid "Save"
+msgstr "Enregistrer"

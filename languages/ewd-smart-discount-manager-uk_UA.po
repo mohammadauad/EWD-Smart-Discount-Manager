@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xq-xe-xt-xy 1.0\n"
+"POT-Creation-Date: 2018-07-11 09:44+0300\n"
+"PO-Revision-Date: 2018-07-11 09:44+0300\n"
+"Last-Translator: \n"
+"Language-Team: Maksym Marko\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../includes\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Discount Rules"
+msgstr ""
+
+msgid "No results found"
+msgstr ""
+
+msgid "Go back"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Cart Adjustment"
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "All Categories"
+msgstr ""
+
+msgid "Specific Categories"
+msgstr ""
+
+msgid "Discount Type"
+msgstr ""
+
+msgid "Fixed Discount"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Specific Discounts"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "General Rules Conditions"
+msgstr ""
+
+msgid "Logic Operator"
+msgstr ""
+
+msgid "AND"
+msgstr ""
+
+msgid "OR"
+msgstr ""
+
+msgid "Add Condition"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Fill in all fields"
+msgstr ""
+
+msgid "Discount Rules list"
+msgstr ""
+
+msgid "Failed to create the item. Please try again."
+msgstr ""
+
+msgid "Discount rule updated successfully."
+msgstr ""
+
+msgid "Discount rule added successfully."
+msgstr ""
+
+msgid "Rules Conditions"
+msgstr ""
+
+msgid "Condition Type"
+msgstr ""
+
+msgid "Operator"
+msgstr ""
+
+msgid "How to calculate"
+msgstr ""
+
+msgid "Count only the items selected in the filters set for this rule"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Weight"
+msgstr ""
+
+msgid "EWD Discount rules"
+msgstr ""
+
+msgid "EWD Discount Manager"
+msgstr ""
+
+msgid "Edit Discount rule"
+msgstr ""
+
+msgid "Create Discount rule"
+msgstr ""
+
+msgid "Go Back"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Save"
+msgstr ""
