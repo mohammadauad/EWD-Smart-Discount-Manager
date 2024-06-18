@@ -62,29 +62,6 @@ Boost Customer Loyalty: Reward loyal customers and incentivize new customers wit
 Optimize Marketing Efforts: Use detailed analytics to understand the impact of your discount strategies and optimize future campaigns.
 With EWD Smart Discount Manager, you have the tools to transform your discounting strategy into a powerful sales driver. Enhance your WooCommerce store's capabilities and provide your customers with an exceptional shopping experience.
 
-== Installation ==
-
-= From your WordPress dashboard =
-
-1. Visit 'Plugins > Add New'
-2. Search for 'WP Plugin Skeleton'
-3. Activate the plugin from your Plugins page.
-4. ...
-
-= From WordPress.org =
-
-1. Download 'WP Plugin Skeleton'.
-2. Upload the 'WP Plugin Skeleton' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)
-3. Activate 'WP Plugin Skeleton' from your Plugins page.
-4. ...
-
-== Screenshots ==
-
-1. Click the button
-2. Item moved upwards
-3. Click the button again
-4. ...
-
 == Changelog ==
 
 = 1.0 =
