@@ -7,10 +7,6 @@ Description: Create flexible discount rules based on product categories, cart to
 Author: Euroweb Digital - Mohammad auad
 Version: 1.0
 Author URI: https://github.com/mohammadauad/
-Plugin Starter Kit Name:       WPP Generator 6.1.4
-Plugin Starter Kit Author:     Maksym Marko
-Plugin Starter Kit URL:        https://markomaksym.com.ua/ewd-smart-discount-manager-generator/
-Plugin Starter Kit Author URL: https://markomaksym.com.ua/
 */
 
 // Exit if accessed directly.
