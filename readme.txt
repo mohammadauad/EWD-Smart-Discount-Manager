@@ -1,15 +1,12 @@
 === EWD Smart Discount Manager ===
 Contributors: Mohammad auad
-Tags: create table, create CPT, add metaboxes
+Tags: WooCommerce, discounts, sales, coupons, pricing, promotions, user roles, customer segmentation, analytics, reporting, bulk discounts, scheduled discounts, automatic discounts, manual coupons, multi-tiered discounts, role-based discounts
 Requires at least: 5.9
 Tested up to: 6.5
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-    WPP Generator Version:        6.1.4
-    WPP Generator Author:         Maksym Marko
-    WPP Generator Author Website: https://markomaksym.com.ua/
-    WPP Generator Video Guide:    https://www.youtube.com/watch?v=K_USk6upqMA&list=PLqb2a5jr0z4W5S6YJrQzpaXHsDNt9Z5ML
+
 
 Create flexible discount rules based on product categories, cart totals, user roles, and more.
 
@@ -65,4 +62,10 @@ With EWD Smart Discount Manager, you have the tools to transform your discountin
 == Changelog ==
 
 = 1.0 =
-* Your first commit
+* Initial plugin release with first system for discounts:
+  - Added support for Cart Adjustment type of discount.
+  - Implemented filtering by all product categories or specific categories.
+  - Introduced custom discounts for categories with the option to set fixed discount values.
+  - Implemented category-specific conditions (initially supporting weight as a condition).
+  - Added parameters for conditions such as "How to calculate".
+  - Introduced the ability to add general conditions that apply to all categories except those with specific conditions.
