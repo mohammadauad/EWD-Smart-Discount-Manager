@@ -221,7 +221,6 @@ function mxesdmApply_cart_discounts($cart) {
         }
     }
 
-
     // Appliquer les réductions basées sur les règles chargées
     foreach ($rules as $rule) {
         $discount = 0;
@@ -310,11 +309,6 @@ function mxesdmApply_cart_discounts($cart) {
                                 }
                             }
 
-
-                            // echo '<pre>';
-                            // var_dump($discount);
-                            // print_r($total_items_by_category);
-                            // Appliquer la réduction comme frais sur le panier
                         }
                     }
                 }
@@ -367,10 +361,8 @@ function mxesdmApply_cart_discounts($cart) {
                                 }
                             }
                         }
-              
                     }
 
-    
            
                     if ($apply_discount) {
                         // Vérifie le type de réduction
@@ -378,7 +370,6 @@ function mxesdmApply_cart_discounts($cart) {
                             // Si la réduction est fixe, utilise simplement la valeur spécifiée
                             $discount = ($rule->value * $total_items);
                         }
-
                         // Store discount details for each cart item
                         foreach ($cart->get_cart() as $item_key => $item) {
                             $original_price = $item['data']->get_price() * $item['quantity'];
