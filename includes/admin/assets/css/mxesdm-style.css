@@ -257,3 +257,12 @@ div#mxesdm_search_results {
     color: #fff;
     background: #6a64f1;
 }
+
+.mxesdm_cart-discount-details .original-price {
+    text-decoration: line-through;
+}
+
+.mxesdm_cart-discount-details {
+    display: flex;
+    flex-direction: column;
+}

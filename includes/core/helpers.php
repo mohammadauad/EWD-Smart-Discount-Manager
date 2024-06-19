@@ -179,6 +179,8 @@ function mxesdmApply_cart_discounts($cart) {
     // Tableau pour stocker le nombre total d'articles par catégorie
     $total_items_by_category = [];
     $total_weight_by_category = [];
+    global $discounts_per_item; // Define a global variable to store discounts
+    $discounts_per_item = [];
 
     // Calculer le nombre total d'articles par catégorie
     foreach ($rules as $rule) {
@@ -291,6 +293,24 @@ function mxesdmApply_cart_discounts($cart) {
                                 // Si la réduction est fixe, utilise simplement la valeur spécifiée
                                 $discount = ($specific->value * $category_count) + $discount;
                             }
+
+                            // Store discount details for each cart item
+                            foreach ($cart->get_cart() as $item_key => $item) {
+                                $item_product = $item['data'];
+                                $item_product_id = $item_product->get_id();
+                                $item_category_ids = wp_get_post_terms($item_product_id, 'product_cat', array('fields' => 'ids'));
+                                
+                                if (in_array($specific->item_id, $item_category_ids)) {
+                                    $original_price = $item_product->get_price() * $item['quantity'];
+                                    $discounted_price = $original_price - ($specific->value * $item['quantity']);
+                                    $discounts_per_item[$item_key] = [
+                                        'original_price' => $original_price,
+                                        'discounted_price' => $discounted_price
+                                    ];
+                                }
+                            }
+
+
                             // echo '<pre>';
                             // var_dump($discount);
                             // print_r($total_items_by_category);
@@ -358,13 +378,49 @@ function mxesdmApply_cart_discounts($cart) {
                             // Si la réduction est fixe, utilise simplement la valeur spécifiée
                             $discount = ($rule->value * $total_items);
                         }
+
+                        // Store discount details for each cart item
+                        foreach ($cart->get_cart() as $item_key => $item) {
+                            $original_price = $item['data']->get_price() * $item['quantity'];
+                            $discounted_price = $original_price - ($rule->value * $item['quantity']);
+                            $discounts_per_item[$item_key] = [
+                                'original_price' => $original_price,
+                                'discounted_price' => $discounted_price
+                            ];
+                        }
+
+
                     }
+
                 }                   
             }
         }
         if($discount > 0)
             $cart->add_fee($rule->label, -$discount);
     }
-
-    // die;
 }
+
+
+if (!function_exists('mxesdm_display_after_cart_item_subtotal')) {
+    function mxesdm_display_after_cart_item_subtotal($product_subtotal, $cart_item, $cart_item_key) {
+        global $discounts_per_item;
+    
+        if (isset($discounts_per_item[$cart_item_key])) {
+            $original_price = $discounts_per_item[$cart_item_key]['original_price'];
+            $discounted_price = $discounts_per_item[$cart_item_key]['discounted_price'];
+    
+            // Return both the original price with a strikethrough/border and the discounted price
+            return sprintf(
+                '<div class="mxesdm_cart-discount-details">
+                    <p><span class="original-price">%s</span> <span class="discounted-price">%s</span></p>
+                </div>',
+                wc_price($original_price),
+                wc_price($discounted_price)
+            );
+        }
+        
+        // If no reduction, return the default product subtotal
+        return $product_subtotal;
+    }
+}
+add_filter('woocommerce_cart_item_subtotal', 'mxesdm_display_after_cart_item_subtotal', 10, 3);
