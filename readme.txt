@@ -71,6 +71,7 @@ With EWD Smart Discount Manager, you have the tools to transform your discountin
   - Introduced the ability to add general conditions that apply to all categories except those with specific conditions.
 
 = 1.1 =
+* Add display of original and discounted prices in cart table
   - Implemented functionality to show both original and discounted prices for items affected by discounts in the cart table.
   - Original prices are displayed with a strikethrough to indicate they have been reduced.
   - Discounted prices are displayed normally to highlight the new price.
