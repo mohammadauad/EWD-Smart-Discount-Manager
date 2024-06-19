@@ -5,7 +5,7 @@ Plugin Name: EWD Smart Discount Manager
 Plugin URI: https://github.com/mohammadauad/EWD-Smart-Discount-Manager
 Description: Create flexible discount rules based on product categories, cart totals, user roles, and more.
 Author: Euroweb Digital - Mohammad auad
-Version: 1.0
+Version: 1.1
 Author URI: https://github.com/mohammadauad/
 */
 

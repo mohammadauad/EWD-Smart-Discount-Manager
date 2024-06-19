@@ -69,3 +69,9 @@ With EWD Smart Discount Manager, you have the tools to transform your discountin
   - Implemented category-specific conditions (initially supporting weight as a condition).
   - Added parameters for conditions such as "How to calculate".
   - Introduced the ability to add general conditions that apply to all categories except those with specific conditions.
+
+= 1.1 =
+  - Implemented functionality to show both original and discounted prices for items affected by discounts in the cart table.
+  - Original prices are displayed with a strikethrough to indicate they have been reduced.
+  - Discounted prices are displayed normally to highlight the new price.
+  - If no discount is applied, the default product subtotal is displayed.
